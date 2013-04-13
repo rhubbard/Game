@@ -1,12 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\PaddleController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PaddleController.cs">
     <Files>
-      <File FileName="Assets\Ball.cs" Line="26" Column="4" />
-      <File FileName="Assets\PaddleController.cs" Line="12" Column="72" />
-      <File FileName="Assets\Block.cs" Line="7" Column="36" />
-      <File FileName="Assets\LevelController.cs" Line="12" Column="28" />
-      <File FileName="Assets\ExplodingBlock.cs" Line="9" Column="36" />
+      <File FileName="Assets\Scripts\Block.cs" Line="18" Column="15" />
+      <File FileName="Assets\Scripts\PowerupBlock.cs" Line="8" Column="30" />
+      <File FileName="Assets\Scripts\PowerUpGrowPaddle.cs" Line="16" Column="24" />
+      <File FileName="Assets\Scripts\PaddleController.cs" Line="17" Column="50" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
