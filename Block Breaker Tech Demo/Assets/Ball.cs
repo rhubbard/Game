@@ -24,7 +24,6 @@ public class Ball : MonoBehaviour {
 				gameObject.rigidbody.velocity = new Vector3(newXSpeed,0,newZSpeed);
 			}
 		}
-		
 	}
 	void OnCollisionEnter()
 	{

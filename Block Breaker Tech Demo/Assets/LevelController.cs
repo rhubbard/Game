@@ -4,17 +4,11 @@ using System.Collections;
 public class LevelController : MonoBehaviour {
 
 	public float blocksLeft;
-	public GameObject winCamera;
-	void Start () {
-	}
-	void Update () {
-	}
+	public GameObject winText;
 	public void blockDestroyed()
 	{
 		blocksLeft--;
 		if(blocksLeft == 0)
-		{
-			winCamera.SetActive(true);
-		}
+			winText.SetActive(true);
 	}
 }

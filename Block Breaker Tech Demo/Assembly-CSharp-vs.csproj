@@ -46,6 +46,7 @@
   <ItemGroup>
      <Compile Include="Assets\Ball.cs" />
      <Compile Include="Assets\Block.cs" />
+     <Compile Include="Assets\ExplodingBlock.cs" />
      <Compile Include="Assets\LevelController.cs" />
      <Compile Include="Assets\PaddleController.cs" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
