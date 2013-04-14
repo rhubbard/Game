@@ -16,6 +16,8 @@ public class PowerupBlock : MonoBehaviour {
 		if(blockHealth<=0)
 		{
 			levelController.GetComponent<LevelController>().blockDestroyed();
+			int randNum = (int)(Random.value*powerUps.Length);
+			Instantiate(powerUps[randNum], transform.position, transform.rotation);
 			Destroy(gameObject);
 		}
 	}
